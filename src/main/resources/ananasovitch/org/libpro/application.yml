@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: "libPro"
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.H2Dialect
+server:
+  port: 8080
+
+my-service:
+  url: http://localhost:8080
